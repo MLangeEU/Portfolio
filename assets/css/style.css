@@ -1,0 +1,1528 @@
+:host,
+:root,
+[data-theme] {
+  --main-brand-color: #297AE3;
+  --primary-color: #15171C;
+  --secondary-color: #232933;
+  --secondary-text-color: #B3B4B6;
+  --text-color: #fff;
+  --background-color: rgb(32, 32, 35);
+  --chakra-ring-inset: var(--chakra-empty,
+          /*!*/
+          /*!*/
+      );
+  --chakra-ring-offset-width: 0px;
+  --chakra-ring-offset-color: #fff;
+  --chakra-ring-color: rgba(66, 153, 225, 0.6);
+  --chakra-ring-offset-shadow: 0 0 #0000;
+  --chakra-ring-shadow: 0 0 #0000;
+  --chakra-space-x-reverse: 0;
+  --chakra-space-y-reverse: 0;
+  --chakra-colors-transparent: transparent;
+  --chakra-colors-current: currentColor;
+  --chakra-colors-black: #000000;
+  --chakra-colors-white: #FFFFFF;
+  --chakra-colors-whiteAlpha-50: rgba(255, 255, 255, 0.04);
+  --chakra-colors-whiteAlpha-100: rgba(255, 255, 255, 0.06);
+  --chakra-colors-whiteAlpha-200: rgba(255, 255, 255, 0.08);
+  --chakra-colors-whiteAlpha-300: rgba(255, 255, 255, 0.16);
+  --chakra-colors-whiteAlpha-400: rgba(255, 255, 255, 0.24);
+  --chakra-colors-whiteAlpha-500: rgba(255, 255, 255, 0.36);
+  --chakra-colors-whiteAlpha-600: rgba(255, 255, 255, 0.48);
+  --chakra-colors-whiteAlpha-700: rgba(255, 255, 255, 0.64);
+  --chakra-colors-whiteAlpha-800: rgba(255, 255, 255, 0.80);
+  --chakra-colors-whiteAlpha-900: rgba(255, 255, 255, 0.92);
+  --chakra-colors-blackAlpha-50: rgba(0, 0, 0, 0.04);
+  --chakra-colors-blackAlpha-100: rgba(0, 0, 0, 0.06);
+  --chakra-colors-blackAlpha-200: rgba(0, 0, 0, 0.08);
+  --chakra-colors-blackAlpha-300: rgba(0, 0, 0, 0.16);
+  --chakra-colors-blackAlpha-400: rgba(0, 0, 0, 0.24);
+  --chakra-colors-blackAlpha-500: rgba(0, 0, 0, 0.36);
+  --chakra-colors-blackAlpha-600: rgba(0, 0, 0, 0.48);
+  --chakra-colors-blackAlpha-700: rgba(0, 0, 0, 0.64);
+  --chakra-colors-blackAlpha-800: rgba(0, 0, 0, 0.80);
+  --chakra-colors-blackAlpha-900: rgba(0, 0, 0, 0.92);
+  --chakra-colors-gray-50: #F7FAFC;
+  --chakra-colors-gray-100: #EDF2F7;
+  --chakra-colors-gray-200: #E2E8F0;
+  --chakra-colors-gray-300: #CBD5E0;
+  --chakra-colors-gray-400: #A0AEC0;
+  --chakra-colors-gray-500: #718096;
+  --chakra-colors-gray-600: #4A5568;
+  --chakra-colors-gray-700: #2D3748;
+  --chakra-colors-gray-800: #1A202C;
+  --chakra-colors-gray-900: #171923;
+  --second-color: #14191b;
+  --chakra-colors-red-50: #FFF5F5;
+  --chakra-colors-red-100: #FED7D7;
+  --chakra-colors-red-200: #FEB2B2;
+  --chakra-colors-red-300: #FC8181;
+  --chakra-colors-red-400: #F56565;
+  --chakra-colors-red-500: #E53E3E;
+  --chakra-colors-red-600: #C53030;
+  --chakra-colors-red-700: #9B2C2C;
+  --chakra-colors-red-800: #822727;
+  --chakra-colors-red-900: #63171B;
+  --first-color: #cf1b1b;
+  --chakra-colors-orange-50: #FFFAF0;
+  --chakra-colors-orange-100: #FEEBC8;
+  --chakra-colors-orange-200: #FBD38D;
+  --chakra-colors-orange-300: #F6AD55;
+  --chakra-colors-orange-400: #ED8936;
+  --chakra-colors-orange-500: #DD6B20;
+  --chakra-colors-orange-600: #C05621;
+  --chakra-colors-orange-700: #9C4221;
+  --chakra-colors-orange-800: #7B341E;
+  --chakra-colors-orange-900: #652B19;
+  --chakra-colors-yellow-50: #FFFFF0;
+  --chakra-colors-yellow-100: #FEFCBF;
+  --chakra-colors-yellow-200: #FAF089;
+  --chakra-colors-yellow-300: #F6E05E;
+  --chakra-colors-yellow-400: #ECC94B;
+  --chakra-colors-yellow-500: #D69E2E;
+  --chakra-colors-yellow-600: #B7791F;
+  --chakra-colors-yellow-700: #975A16;
+  --chakra-colors-yellow-800: #744210;
+  --chakra-colors-yellow-900: #5F370E;
+  --chakra-colors-green-50: #F0FFF4;
+  --chakra-colors-green-100: #C6F6D5;
+  --chakra-colors-green-200: #9AE6B4;
+  --chakra-colors-green-300: #68D391;
+  --chakra-colors-green-400: #48BB78;
+  --chakra-colors-green-500: #38A169;
+  --chakra-colors-green-600: #2F855A;
+  --chakra-colors-green-700: #276749;
+  --chakra-colors-green-800: #22543D;
+  --chakra-colors-green-900: #1C4532;
+  --chakra-colors-teal-50: #E6FFFA;
+  --chakra-colors-teal-100: #B2F5EA;
+  --chakra-colors-teal-200: #81E6D9;
+  --chakra-colors-teal-300: #4FD1C5;
+  --chakra-colors-teal-400: #38B2AC;
+  --chakra-colors-teal-500: #319795;
+  --chakra-colors-teal-600: #2C7A7B;
+  --chakra-colors-teal-700: #285E61;
+  --chakra-colors-teal-800: #234E52;
+  --chakra-colors-teal-900: #1D4044;
+  --chakra-colors-blue-50: #ebf8ff;
+  --chakra-colors-blue-100: #bee3f8;
+  --chakra-colors-blue-200: #90cdf4;
+  --chakra-colors-blue-300: #63b3ed;
+  --chakra-colors-blue-400: #4299e1;
+  --chakra-colors-blue-500: #3182ce;
+  --chakra-colors-blue-600: #2b6cb0;
+  --chakra-colors-blue-700: #2c5282;
+  --chakra-colors-blue-800: #2a4365;
+  --chakra-colors-blue-900: #1A365D;
+  --chakra-colors-cyan-50: #EDFDFD;
+  --chakra-colors-cyan-100: #C4F1F9;
+  --chakra-colors-cyan-200: #9DECF9;
+  --chakra-colors-cyan-300: #76E4F7;
+  --chakra-colors-cyan-400: #0BC5EA;
+  --chakra-colors-cyan-500: #00B5D8;
+  --chakra-colors-cyan-600: #00A3C4;
+  --chakra-colors-cyan-700: #0987A0;
+  --chakra-colors-cyan-800: #086F83;
+  --chakra-colors-cyan-900: #065666;
+  --chakra-colors-purple-50: #FAF5FF;
+  --chakra-colors-purple-100: #E9D8FD;
+  --chakra-colors-purple-200: #D6BCFA;
+  --chakra-colors-purple-300: #B794F4;
+  --chakra-colors-purple-400: #9F7AEA;
+  --chakra-colors-purple-500: #805AD5;
+  --chakra-colors-purple-600: #6B46C1;
+  --chakra-colors-purple-700: #553C9A;
+  --chakra-colors-purple-800: #44337A;
+  --chakra-colors-purple-900: #322659;
+  --chakra-colors-pink-50: #FFF5F7;
+  --chakra-colors-pink-100: #FED7E2;
+  --chakra-colors-pink-200: #FBB6CE;
+  --chakra-colors-pink-300: #F687B3;
+  --chakra-colors-pink-400: #ED64A6;
+  --chakra-colors-pink-500: #D53F8C;
+  --chakra-colors-pink-600: #B83280;
+  --chakra-colors-pink-700: #97266D;
+  --chakra-colors-pink-800: #702459;
+  --chakra-colors-pink-900: #521B41;
+  --chakra-colors-linkedin-50: #E8F4F9;
+  --chakra-colors-linkedin-100: #CFEDFB;
+  --chakra-colors-linkedin-200: #9BDAF3;
+  --chakra-colors-linkedin-300: #68C7EC;
+  --chakra-colors-linkedin-400: #34B3E4;
+  --chakra-colors-linkedin-500: #00A0DC;
+  --chakra-colors-linkedin-600: #008CC9;
+  --chakra-colors-linkedin-700: #0077B5;
+  --chakra-colors-linkedin-800: #005E93;
+  --chakra-colors-linkedin-900: #004471;
+  --chakra-colors-facebook-50: #E8F4F9;
+  --chakra-colors-facebook-100: #D9DEE9;
+  --chakra-colors-facebook-200: #B7C2DA;
+  --chakra-colors-facebook-300: #6482C0;
+  --chakra-colors-facebook-400: #4267B2;
+  --chakra-colors-facebook-500: #385898;
+  --chakra-colors-facebook-600: #314E89;
+  --chakra-colors-facebook-700: #29487D;
+  --chakra-colors-facebook-800: #223B67;
+  --chakra-colors-facebook-900: #1E355B;
+  --chakra-colors-messenger-50: #D0E6FF;
+  --chakra-colors-messenger-100: #B9DAFF;
+  --chakra-colors-messenger-200: #A2CDFF;
+  --chakra-colors-messenger-300: #7AB8FF;
+  --chakra-colors-messenger-400: #2E90FF;
+  --chakra-colors-messenger-500: #0078FF;
+  --chakra-colors-messenger-600: #0063D1;
+  --chakra-colors-messenger-700: #0052AC;
+  --chakra-colors-messenger-800: #003C7E;
+  --chakra-colors-messenger-900: #002C5C;
+  --chakra-colors-whatsapp-50: #dffeec;
+  --chakra-colors-whatsapp-100: #b9f5d0;
+  --chakra-colors-whatsapp-200: #90edb3;
+  --chakra-colors-whatsapp-300: #65e495;
+  --chakra-colors-whatsapp-400: #3cdd78;
+  --chakra-colors-whatsapp-500: #22c35e;
+  --chakra-colors-whatsapp-600: #179848;
+  --chakra-colors-whatsapp-700: #0c6c33;
+  --chakra-colors-whatsapp-800: #01421c;
+  --chakra-colors-whatsapp-900: #001803;
+  --chakra-colors-twitter-50: #E5F4FD;
+  --chakra-colors-twitter-100: #C8E9FB;
+  --chakra-colors-twitter-200: #A8DCFA;
+  --chakra-colors-twitter-300: #83CDF7;
+  --chakra-colors-twitter-400: #57BBF5;
+  --chakra-colors-twitter-500: #1DA1F2;
+  --chakra-colors-twitter-600: #1A94DA;
+  --chakra-colors-twitter-700: #1681BF;
+  --chakra-colors-twitter-800: #136B9E;
+  --chakra-colors-twitter-900: #0D4D71;
+  --chakra-colors-telegram-50: #E3F2F9;
+  --chakra-colors-telegram-100: #C5E4F3;
+  --chakra-colors-telegram-200: #A2D4EC;
+  --chakra-colors-telegram-300: #7AC1E4;
+  --chakra-colors-telegram-400: #47A9DA;
+  --chakra-colors-telegram-500: #0088CC;
+  --chakra-colors-telegram-600: #007AB8;
+  --chakra-colors-telegram-700: #006BA1;
+  --chakra-colors-telegram-800: #005885;
+  --chakra-colors-telegram-900: #003F5E;
+  --chakra-colors-grassTeal: #88ccca;
+  --chakra-borders-none: 0;
+  --chakra-borders-1px: 1px solid;
+  --chakra-borders-2px: 2px solid;
+  --chakra-borders-4px: 4px solid;
+  --chakra-borders-8px: 8px solid;
+  --chakra-fonts-heading: "M PLUS Rounded 1c";
+  --chakra-fonts-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --chakra-fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --chakra-fontSizes-3xs: 0.45rem;
+  --chakra-fontSizes-2xs: 0.625rem;
+  --chakra-fontSizes-xs: 0.75rem;
+  --chakra-fontSizes-sm: 0.875rem;
+  --chakra-fontSizes-md: 1rem;
+  --chakra-fontSizes-lg: 1.125rem;
+  --chakra-fontSizes-xl: 1.25rem;
+  --chakra-fontSizes-2xl: 1.5rem;
+  --chakra-fontSizes-3xl: 1.875rem;
+  --chakra-fontSizes-4xl: 2.25rem;
+  --chakra-fontSizes-5xl: 3rem;
+  --chakra-fontSizes-6xl: 3.75rem;
+  --chakra-fontSizes-7xl: 4.5rem;
+  --chakra-fontSizes-8xl: 6rem;
+  --chakra-fontSizes-9xl: 8rem;
+  --chakra-fontWeights-hairline: 100;
+  --chakra-fontWeights-thin: 200;
+  --chakra-fontWeights-light: 300;
+  --chakra-fontWeights-normal: 400;
+  --chakra-fontWeights-medium: 500;
+  --chakra-fontWeights-semibold: 600;
+  --chakra-fontWeights-bold: 700;
+  --chakra-fontWeights-extrabold: 800;
+  --chakra-fontWeights-black: 900;
+  --chakra-letterSpacings-tighter: -0.05em;
+  --chakra-letterSpacings-tight: -0.025em;
+  --chakra-letterSpacings-normal: 0;
+  --chakra-letterSpacings-wide: 0.025em;
+  --chakra-letterSpacings-wider: 0.05em;
+  --chakra-letterSpacings-widest: 0.1em;
+  --chakra-lineHeights-3: .75rem;
+  --chakra-lineHeights-4: 1rem;
+  --chakra-lineHeights-5: 1.25rem;
+  --chakra-lineHeights-6: 1.5rem;
+  --chakra-lineHeights-7: 1.75rem;
+  --chakra-lineHeights-8: 2rem;
+  --chakra-lineHeights-9: 2.25rem;
+  --chakra-lineHeights-10: 2.5rem;
+  --chakra-lineHeights-normal: normal;
+  --chakra-lineHeights-none: 1;
+  --chakra-lineHeights-shorter: 1.25;
+  --chakra-lineHeights-short: 1.375;
+  --chakra-lineHeights-base: 1.5;
+  --chakra-lineHeights-tall: 1.625;
+  --chakra-lineHeights-taller: 2;
+  --chakra-radii-none: 0;
+  --chakra-radii-sm: 0.125rem;
+  --chakra-radii-base: 0.25rem;
+  --chakra-radii-md: 0.375rem;
+  --chakra-radii-lg: 0.5rem;
+  --chakra-radii-xl: 0.75rem;
+  --chakra-radii-2xl: 1rem;
+  --chakra-radii-3xl: 1.5rem;
+  --chakra-radii-full: 9999px;
+  --chakra-space-1: 0.25rem;
+  --chakra-space-2: 0.5rem;
+  --chakra-space-3: 0.75rem;
+  --chakra-space-4: 1rem;
+  --chakra-space-5: 1.25rem;
+  --chakra-space-6: 1.5rem;
+  --chakra-space-7: 1.75rem;
+  --chakra-space-8: 2rem;
+  --chakra-space-9: 2.25rem;
+  --chakra-space-10: 2.5rem;
+  --chakra-space-12: 3rem;
+  --chakra-space-14: 3.5rem;
+  --chakra-space-16: 4rem;
+  --chakra-space-20: 5rem;
+  --chakra-space-24: 6rem;
+  --chakra-space-28: 7rem;
+  --chakra-space-32: 8rem;
+  --chakra-space-36: 9rem;
+  --chakra-space-40: 10rem;
+  --chakra-space-44: 11rem;
+  --chakra-space-48: 12rem;
+  --chakra-space-52: 13rem;
+  --chakra-space-56: 14rem;
+  --chakra-space-60: 15rem;
+  --chakra-space-64: 16rem;
+  --chakra-space-72: 18rem;
+  --chakra-space-80: 20rem;
+  --chakra-space-96: 24rem;
+  --chakra-space-px: 1px;
+  --chakra-space-0-5: 0.125rem;
+  --chakra-space-1-5: 0.375rem;
+  --chakra-space-2-5: 0.625rem;
+  --chakra-space-3-5: 0.875rem;
+  --chakra-shadows-xs: 0 0 0 1px rgba(0, 0, 0, 0.05);
+  --chakra-shadows-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --chakra-shadows-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --chakra-shadows-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --chakra-shadows-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --chakra-shadows-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --chakra-shadows-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --chakra-shadows-outline: 0 0 0 3px rgba(66, 153, 225, 0.6);
+  --chakra-shadows-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  --chakra-shadows-none: none;
+  --chakra-shadows-dark-lg: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.4) 0px 15px 40px;
+  --chakra-sizes-1: 0.25rem;
+  --chakra-sizes-2: 0.5rem;
+  --chakra-sizes-3: 0.75rem;
+  --chakra-sizes-4: 1rem;
+  --chakra-sizes-5: 1.25rem;
+  --chakra-sizes-6: 1.5rem;
+  --chakra-sizes-7: 1.75rem;
+  --chakra-sizes-8: 2rem;
+  --chakra-sizes-9: 2.25rem;
+  --chakra-sizes-10: 2.5rem;
+  --chakra-sizes-12: 3rem;
+  --chakra-sizes-14: 3.5rem;
+  --chakra-sizes-16: 4rem;
+  --chakra-sizes-20: 5rem;
+  --chakra-sizes-24: 6rem;
+  --chakra-sizes-28: 7rem;
+  --chakra-sizes-32: 8rem;
+  --chakra-sizes-36: 9rem;
+  --chakra-sizes-40: 10rem;
+  --chakra-sizes-44: 11rem;
+  --chakra-sizes-48: 12rem;
+  --chakra-sizes-52: 13rem;
+  --chakra-sizes-56: 14rem;
+  --chakra-sizes-60: 15rem;
+  --chakra-sizes-64: 16rem;
+  --chakra-sizes-72: 18rem;
+  --chakra-sizes-80: 20rem;
+  --chakra-sizes-96: 24rem;
+  --chakra-sizes-px: 1px;
+  --chakra-sizes-0-5: 0.125rem;
+  --chakra-sizes-1-5: 0.375rem;
+  --chakra-sizes-2-5: 0.625rem;
+  --chakra-sizes-3-5: 0.875rem;
+  --chakra-sizes-max: max-content;
+  --chakra-sizes-min: min-content;
+  --chakra-sizes-full: 100%;
+  --chakra-sizes-3xs: 14rem;
+  --chakra-sizes-2xs: 16rem;
+  --chakra-sizes-xs: 20rem;
+  --chakra-sizes-sm: 24rem;
+  --chakra-sizes-md: 28rem;
+  --chakra-sizes-lg: 32rem;
+  --chakra-sizes-xl: 36rem;
+  --chakra-sizes-2xl: 42rem;
+  --chakra-sizes-3xl: 48rem;
+  --chakra-sizes-4xl: 56rem;
+  --chakra-sizes-5xl: 64rem;
+  --chakra-sizes-6xl: 72rem;
+  --chakra-sizes-7xl: 80rem;
+  --chakra-sizes-8xl: 90rem;
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+  --chakra-sizes-prose: 60ch;
+  --chakra-sizes-container-sm: 640px;
+  --chakra-sizes-container-md: 768px;
+  --chakra-sizes-container-lg: 1024px;
+  --chakra-sizes-container-xl: 1280px;
+  --chakra-zIndices-hide: -1;
+  --chakra-zIndices-auto: auto;
+  --chakra-zIndices-base: 0;
+  --chakra-zIndices-docked: 10;
+  --chakra-zIndices-dropdown: 1000;
+  --chakra-zIndices-sticky: 1100;
+  --chakra-zIndices-banner: 1200;
+  --chakra-zIndices-overlay: 1300;
+  --chakra-zIndices-modal: 1400;
+  --chakra-zIndices-popover: 1500;
+  --chakra-zIndices-skipLink: 1600;
+  --chakra-zIndices-toast: 1700;
+  --chakra-zIndices-tooltip: 1800;
+  --chakra-transition-property-common: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  --chakra-transition-property-colors: background-color, border-color, color, fill, stroke;
+  --chakra-transition-property-dimensions: width, height;
+  --chakra-transition-property-position: left, right, top, bottom;
+  --chakra-transition-property-background: background-color, background-image, background-position;
+  --chakra-transition-easing-ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --chakra-transition-easing-ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --chakra-transition-easing-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --chakra-transition-duration-ultra-fast: 50ms;
+  --chakra-transition-duration-faster: 100ms;
+  --chakra-transition-duration-fast: 150ms;
+  --chakra-transition-duration-normal: 200ms;
+  --chakra-transition-duration-slow: 300ms;
+  --chakra-transition-duration-slower: 400ms;
+  --chakra-transition-duration-ultra-slow: 500ms;
+  --chakra-blur-none: 0;
+  --chakra-blur-sm: 4px;
+  --chakra-blur-base: 8px;
+  --chakra-blur-md: 12px;
+  --chakra-blur-lg: 16px;
+  --chakra-blur-xl: 24px;
+  --chakra-blur-2xl: 40px;
+  --chakra-blur-3xl: 64px;
+  --chakra-transition-property-common: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  --big-font-size: 3.5rem;
+  --h2-font-size: 2rem;
+  --normal-font-size: 1rem;
+}
+
+/*-----------------------------------*\
+ * #THEME COLORS
+\*-----------------------------------*/
+body.dark_theme {
+  --bg-primary: rgb(31, 31, 31);
+  --bg-secondary: rgb(48, 48, 48);
+  --color-primary: rgb(255, 255, 255);
+  --color-secondary: rgb(158, 158, 158);
+  --card-shadow: rgba(0, 0, 0, 0.4);
+  --input-bg: rgb(41, 41, 41) //# 292929
+      --shadow-1: 10px 10px 40px var(--card-shadow);
+}
+body.light_theme {
+  --bg-primary: rgb(230, 230, 230);
+  --bg-secondary: rgb(255, 255, 255);
+  --color-primary: rgb(31, 31, 31);
+  --color-secondary: rgb(94, 94, 94);
+  --card-shadow: rgba(0, 0, 0, .1);
+  --input-bg: rgb(237, 237, 237);
+  --shadow-1: 10px 10px 40px var(--card-shadow);
+}
+
+/*-----------------------------------*\
+ * Style Settings
+\*-----------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img,
+time,
+span,
+input,
+label,
+select,
+button,
+textarea,
+ion-icon {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+ion-icon {
+  pointer-events: none;
+}
+
+:is(a, button, select) {
+  outline-color: var(--chakra-colors-red-500);
+  outline-offset: 3px;
+}
+
+::-moz-selection {
+  background: var(--color-primary);
+  color: var(--bg-primary);
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--bg-primary);
+}
+
+html {
+  font-family: "Roboto";
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  transition: 0.25s ease-in-out;
+}
+body.active {
+  overflow: hidden;
+}
+
+/*-----------------------------------*\
+ * #REUSED STYLE
+\*-----------------------------------*/
+.container {
+  padding-inline: 10px;
+}
+
+.h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.h2,
+.h3,
+.h4 {
+  color: var(--color-primary);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+}
+
+.btn {
+  max-width: -moz-max-content;
+  max-width: max-content;
+  color: var(--color-primary);
+  font-weight: var(--chakra-fontWeights-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 25px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: 0.25s ease-in-out;
+}
+
+.btn-primary {
+  border-color: var(--color-primary);
+}
+.btn-primary:is(:hover, :focus) {
+  background: var(--color-primary);
+  color: var(--bg-primary);
+}
+
+.btn-secondary {
+  background: var(--chakra-colors-orange-400);
+  border-color: var(--chakra-colors-orange-400);
+  color: #000;
+}
+
+.section-subtitle {
+  position: relative;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.section-subtitle::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: var(--color-secondary);
+}
+
+.section-title {
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.section-text {
+  color: var(--color-secondary);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.tooltip {
+  position: absolute;
+  top: -40px;
+  background: var(--chakra-colors-orange-400);
+  min-width: -moz-max-content;
+  min-width: max-content;
+  color: var(--color-primary);
+  font-size: 15px;
+  font-weight: var(--chakra-fontWeights-bold);
+  padding: 5px 10px;
+  border-radius: 4px;
+  box-shadow: var(--shadow-1);
+  transform: translateY(-10px);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s ease-in-out;
+  z-index: 1;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/*-----------------------------------*\
+ * Website Style
+\*-----------------------------------*/
+.header {
+  padding-block: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.25s ease-in-out;
+  z-index: 4;
+}
+.header.active {
+  padding-block: 12px;
+  background: var(--bg-secondary);
+  box-shadow: var(--shadow-1);
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  position: relative;
+  min-width: 77px;
+  z-index: 2;
+}
+.logo a {
+  color: var(--color-primary);
+  font-family: "poppins";
+}
+.logo span {
+  display: inline-block;
+  color: var(--chakra-colors-orange-400);
+  margin-left: 2px;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: auto;
+}
+.navbar-actions select {
+  color: var(--color-primary);
+  width: 45px;
+}
+.navbar-actions option {
+  background: var(--bg-primary);
+  color: var(--color-primary);
+}
+
+.theme-btn {
+  padding: 4px;
+  width: 48px;
+  background: var(--bg-secondary);
+  border-radius: 100px;
+  transition: 0.25s ease-in-out;
+}
+
+.header.active .theme-btn {
+  background: var(--bg-primary);
+}
+
+.theme-btn .icon {
+  position: relative;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  box-shadow: inset 9px -6px var(--color-primary);
+  transition: 0.25s ease-in-out;
+}
+.theme-btn.active .icon {
+  left: 20px;
+  box-shadow: inset 20px -20px var(--chakra-colors-yellow-300);
+}
+
+.nav-toggle-btn {
+  position: relative;
+  transform: rotate(-55deg);
+  transition: 0.25s ease-in-out;
+  z-index: 2;
+}
+.nav-toggle-btn.active {
+  transform: rotate(-45deg);
+}
+.nav-toggle-btn span {
+  width: 20px;
+  height: 2px;
+  background: var(--color-primary);
+  margin: 5px;
+  transition: 0.25s ease-in-out;
+}
+.nav-toggle-btn :is(.one, .three) {
+  width: 10px;
+}
+.nav-toggle-btn .one {
+  margin-left: auto;
+  transform-origin: left;
+}
+.nav-toggle-btn .three {
+  transform-origin: right;
+}
+.nav-toggle-btn.active .one {
+  transform: rotate(90deg) translateX(-3px);
+}
+.nav-toggle-btn.active .three {
+  transform: rotate(90deg) translateX(3px);
+}
+
+.navbar {
+  position: fixed;
+  background: var(--bg-secondary);
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+  transition: 0.75s cubic-bezier(0.71, 0.01, 0.24, 0.99);
+  transition-delay: 0.5s;
+  z-index: 1;
+}
+.navbar.active {
+  top: 0;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.navbar-list > li {
+  margin-block: 20px;
+  padding-inline: 50px;
+  overflow: hidden;
+}
+
+.navbar-link {
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  margin-inline: auto;
+  color: var(--color-primary);
+  font-size: 2rem;
+  font-family: "Poppins";
+  padding: 10px;
+  transform: translateY(50px);
+  transition: 0.75s cubic-bezier(0.68, -0.55, 0.27, 2);
+}
+
+.navbar.active .navbar-link {
+  transform: translateY(0);
+  transition-delay: 0.5s;
+}
+
+.navbar-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  height: 5px;
+  width: 0;
+  background: var(--chakra-colors-orange-400);
+  transition: 0.25s ease-in-out;
+}
+.navbar-link:is(:hover, :focus)::before {
+  width: 100%;
+}
+
+/*-----------------------------------*\
+ * #HERO
+\*-----------------------------------*/
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 115px;
+  margin-bottom: 80px;
+}
+
+.hero-banner {
+  max-width: 500px;
+  width: 120%;
+  margin-bottom: 30px;
+}
+
+:is(.hero-social-list, .scroll-down) {
+  display: none;
+}
+
+.hero-content {
+  max-width: 450px;
+}
+
+.hero-title {
+  text-align: center;
+  margin-bottom: 30px;
+  z-index: 999;
+  color: #fff;
+}
+
+.hero .btn-primary {
+  margin-inline: auto;
+}
+
+/*-----------------------------------*\
+ * #ABOUT
+\*-----------------------------------*/
+.about {
+  padding-block: 80px;
+}
+
+.about-banner {
+  max-width: 300px;
+  margin-inline: auto;
+  margin-bottom: 80px;
+}
+
+.about .btn {
+  max-width: unset;
+  width: 100%;
+}
+.about .btn-secondary {
+  margin-bottom: 10px;
+}
+
+/*-----------------------------------*\
+ * #SKILLS
+\*-----------------------------------*/
+.skills {
+  padding-block: 80px;
+}
+
+.skills-content {
+  margin-bottom: 50px;
+}
+
+.skills-toggle {
+  background: var(--bg-secondary);
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 100px;
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+}
+.skills-toggle::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  bottom: 5px;
+  width: 93px;
+  background: var(--chakra-colors-orange-500);
+  border-radius: 100px;
+  transition: 0.25s ease-in-out;
+  z-index: -1;
+}
+.skills-toggle.active::before {
+  left: 98px;
+  width: 94px;
+}
+
+.toggle-btn {
+  color: var(--color-primary);
+  font-family: "Poppins";
+  padding: 5px 25px;
+  transition: 0.25s ease-in-out;
+}
+.toggle-btn.active {
+  color: var(--white);
+}
+
+.skills-box.active .skills-list,
+.skills-box .tools-list {
+  display: none;
+}
+.skills-box .skills-list, .skills-box.active .tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.skill-card {
+  position: relative;
+  background: var(--bg-secondary);
+  width: 80px;
+  height: 80px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  box-shadow: var(--shadow-1);
+  cursor: help;
+}
+.skill-card:hover .tooltip {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/*-----------------------------------*\
+ * #PROJECT
+\*-----------------------------------*/
+.project {
+  padding-block: 80px;
+}
+
+.project-list > li {
+  margin-bottom: 25px;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
+}
+.project-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  transition: 0.25s ease-in-out;
+}
+.project-card:is(:hover, :focus)::after {
+  background: hsla(0, 0%, 100%, 0.1);
+  -webkit-backdrop-filter: blur(0.5px);
+          backdrop-filter: blur(0.5px);
+}
+.project-card .card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+.project-card .card-title {
+  margin-bottom: 10px;
+}
+.project-card :is(.card-title, .publish-date) {
+  background: var(--bg-primary);
+  padding: 6px 12px;
+  width: -moz-max-content;
+  width: max-content;
+  box-shadow: var(--shadow-1);
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.25s ease-in-out;
+}
+.project-card .publish-date {
+  font-size: 0.8rem;
+  color: var(--color-primary);
+  transition-delay: 0s;
+}
+.project-card:is(:hover, :focus) :is(.card-title, .publish-date) {
+  transform: translateY(0);
+  opacity: 1;
+}
+.project-card:is(:hover, :focus) .publish-date {
+  transition-delay: 0.1s;
+}
+
+/*-----------------------------------*\
+ * #CONTACT
+\*-----------------------------------*/
+.contact {
+  padding-block: 80px;
+}
+
+.contact-content {
+  margin-bottom: 50px;
+}
+
+.contact-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-item-icon {
+  font-size: 25px;
+  color: var(--color-primary);
+}
+.contact-item-icon ion-icon {
+  --ionicon-stroke-width: 40px;
+}
+
+.contact-item-title {
+  margin-bottom: 10px;
+}
+
+.contact-list-item .contact-info {
+  color: var(--color-secondary);
+  font-style: normal;
+  line-height: 1.6;
+  transition: 0.25s ease-in-out;
+}
+
+.contact-info:not(address):is(:hover, :focus) {
+  color: var(--color-primary);
+}
+
+.contac-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-inline: 40px;
+}
+
+.contact-social-link {
+  position: relative;
+  background: var(--color-primary);
+  color: var(--bg-primary);
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transition: 0.25s ease-in-out;
+}
+.contact-social-link:is(:hover, :focus) {
+  background: var(--chakra-colors-orange-500);
+  color: var(--color-primary);
+}
+.contact-social-link:is(:hover, :focus) .tooltip {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.contact-form {
+  background: var(--bg-secondary);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-1);
+}
+
+.form-wrapper {
+  margin-bottom: 25px;
+}
+
+.form-label {
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  font-family: "Poppins";
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-field {
+  background: var(--input-bg);
+  color: var(--raw-seinna);
+  padding: 10px;
+  padding-left: 40px;
+  border-radius: var(--radius-12);
+  transition: 0.25s ease-in-out;
+}
+
+.input-wrapper ion-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: var(--color-secondary);
+  font-size: 20px;
+  transition: 0.25s ease-in-out;
+}
+
+textarea.input-field {
+  min-height: 60px;
+  height: 120px;
+  max-height: 200px;
+  resize: vertical;
+}
+
+.input-field:focus {
+  outline: 1px solid;
+}
+.input-field:focus + ion-icon {
+  color: var(--chakra-colors-orange-500);
+}
+
+.contact .btn-primary {
+  max-width: unset;
+  width: 100%;
+  background: var(--color-primary);
+  color: var(--bg-primary);
+}
+
+/*-----------------------------------*\
+ * #FOOTER
+\*-----------------------------------*/
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+.copyright {
+  color: var(--color-secondary);
+  line-height: 1.6;
+}
+.copyright a {
+  display: inline-block;
+  color: var(--chakra-colors-orange-500);
+}
+
+/*-----------------------------------*\
+   * #GO TO TOP
+  \*-----------------------------------*/
+.go-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 45px;
+  height: 45px;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: 0.25s ease-in-out;
+  z-index: 2;
+}
+.go-top.active {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0);
+}
+
+/*-----------------------------------*\
+//!! #MEDIA QUERIES !!
+\*-----------------------------------*/
+@media (min-width: 550px) {
+  .container {
+    max-width: 550px;
+    margin-inline: auto;
+  }
+  .section-title {
+    max-width: 380px;
+  }
+  .project-list {
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+  }
+  .project-list > li:first-child {
+    -moz-column-span: all;
+         column-span: all;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .section-title {
+    max-width: 430px;
+  }
+  .stats-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .btn-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  .about .btn {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+  .about .btn-secondary {
+    margin-bottom: 0;
+  }
+  .contact-form {
+    max-width: 450px;
+    margin-inline: auto;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --fs-2: 3rem;
+    --section-padding: 100px;
+  }
+  .container {
+    max-width: 980px;
+  }
+  .section-content {
+    position: relative;
+    padding-left: 40px;
+  }
+  .section-subtitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(0.75turn) translateX(-100%);
+    transform-origin: left top;
+    margin-bottom: 0;
+  }
+  .section-subtitle::after {
+    top: 8px;
+    left: auto;
+    right: calc(100% + 20px);
+  }
+  .header {
+    padding-block: 30px;
+  }
+  .header.active {
+    padding-block: 15px;
+  }
+  .navbar-actions {
+    order: 1;
+    margin-left: 0;
+  }
+  .nav-toggle-btn {
+    display: none;
+  }
+  .navbar {
+    all: unset;
+  }
+  .navbar-link {
+    transform: translateY(0);
+    font-size: unset;
+    padding-inline: 5px;
+  }
+  .navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .navbar-list > li {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+  }
+  .navbar-link::before {
+    height: 2px;
+  }
+  .hero {
+    position: relative;
+    padding-top: 0;
+    height: 100vh;
+  }
+  .hero-banner {
+    max-width: unset;
+    height: 60%;
+    margin-bottom: 0;
+  }
+  .hero img {
+    height: 60%;
+    width: auto;
+    margin-inline: auto;
+  }
+  .hero-content {
+    --color-primary: var(--white);
+    position: absolute;
+    top: 50%;
+    filter: drop-shadow(2px 4px 10px var(--black));
+  }
+  .hero .btn-primary:is(:hover, :focus) {
+    color: hsl(0, 0%, 12%);
+  }
+  .hero-social-list {
+    display: block;
+    position: absolute;
+    bottom: 92px;
+    left: -30px;
+  }
+  .hero-social-list::after {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 13px;
+    width: 2px;
+    height: 30px;
+    background: var(--color-secondary);
+  }
+  .hero-social-link {
+    position: relative;
+    color: var(--color-secondary);
+    margin-block: 5px;
+    padding: 5px;
+    font-size: 18px;
+    transition: var(--transition-1);
+  }
+  .hero-social-link:is(:hover, :focus) {
+    color: var(--color-primary);
+  }
+  .hero-social-link .tooltip {
+    --trans-x: 10px;
+    left: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%) translateX(var(--trans-x));
+  }
+  .hero-social-link:is(:hover, :focus) .tooltip {
+    --trans-x: 0;
+    opacity: 1;
+  }
+  .scroll-down {
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    right: -30px;
+    color: var(--color-secondary);
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    transform-origin: top right;
+  }
+  .scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: -50px;
+    width: 30px;
+    height: 2px;
+    background: var(--color-secondary);
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+  }
+  .skills-content {
+    margin-bottom: 0;
+  }
+  .skills-toggle {
+    margin-inline: 0;
+  }
+  .project-list {
+    -moz-column-count: 3;
+         column-count: 3;
+  }
+  .project-list > li:first-child {
+    -moz-column-span: unset;
+         column-span: unset;
+    margin: 25px;
+    margin-left: 0;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .contact-content {
+    margin-bottom: 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .contact-list {
+    margin-left: -40px;
+  }
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer .logo {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+  .section-title {
+    max-width: 460px;
+  }
+  .hero-social-list {
+    left: -80px;
+  }
+  .scroll-down {
+    right: -80px;
+  }
+  .about-banner {
+    max-width: 350px;
+  }
+}/*# sourceMappingURL=style.css.map */
